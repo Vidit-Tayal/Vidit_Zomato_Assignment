@@ -5,7 +5,6 @@ import { createRoot } from "react-dom/client";
 import { Auth0Provider } from "@auth0/auth0-react";
 import auth_data from "./raw_data/auth data/auth_data.json";
 import { BrowserRouter } from "react-router-dom";
-import Images from "./components/upload_images/Images";
 
 const root = createRoot(document.getElementById("root"));
 
