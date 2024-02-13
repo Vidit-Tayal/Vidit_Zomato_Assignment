@@ -13,7 +13,7 @@ root.render(
     domain={auth_data.domain}
     clientId={auth_data.client_id}
     authorizationParams={{
-      redirect_uri: "http://localhost:3000/upload_images"
+      redirect_uri: auth_data.redirect_uri
     }}
   >
     <BrowserRouter>
